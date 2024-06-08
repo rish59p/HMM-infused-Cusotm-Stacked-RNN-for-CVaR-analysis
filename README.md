@@ -1,4 +1,5 @@
-# Custom Hidden Markov Model Infused Stacked Recurrent Neural Network for Forecasting Regime-dependent ES/CVaR
+# HMM-infused-Cusotm-Stacked-RNN-for-CVaR-analysis
+
 ## Overview
 
 This repository contains the code implementation and detailed explanation for a custom machine learning model developed to forecast Conditional Value at Risk (CVaR) for credit spreads. The model combines the power of Hidden Markov Models (HMMs) and Recurrent Neural Networks (RNNs) to provide more reliable volatility forecasts, particularly for credit spreads in finance.
