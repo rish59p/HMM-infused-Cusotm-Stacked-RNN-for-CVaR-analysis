@@ -7,18 +7,27 @@ Background
 Credit spreads, the difference in yield between corporate bonds and risk-free benchmarks, are crucial indicators of credit risk perception in financial markets. Accurately forecasting credit spread volatility is essential for risk management, portfolio optimization, and derivative pricing. However, traditional time series models often struggle with non-stationarities and regime shifts present in financial data, leading to inaccurate volatility forecasts.
 Model Architecture
 
+![alt text](/images/7.Architecture.jpg)
+
+
 The custom model architecture consists of two main components:
 
     Hidden Markov Model (HMM): Models the underlying regimes or states of the credit spread data. Each regime represents a distinct market condition with its own volatility characteristics.
     Stacked Recurrent Neural Network (RNN): Captures the temporal dependencies and patterns within each regime, allowing for accurate volatility forecasts.
 
 The model is trained using historical credit spread data and regime probabilities estimated by the HMM component. It leverages the power of deep learning to learn complex patterns and provide robust volatility forecasts.
+![alt text](/images/2.CVaR.png)
+
 Implementation
 
     HMM-RNN-CVaR.ipynb: Python code for the custom HMM-infused stacked RNN model.
     data_processing.py: Python code for data preprocessing and preparation.
     backpropagation.py: Python code for the backpropagation algorithm used in model training.
     requirements.txt: List of Python dependencies required to run the code.
+
+![alt text](/images/3.MultiCVaR.png)
+![alt text](/images/6.HMM.png)
+
 
 ## Usage
 
