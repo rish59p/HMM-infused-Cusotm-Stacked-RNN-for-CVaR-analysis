@@ -7,7 +7,7 @@ Background
 Credit spreads, the difference in yield between corporate bonds and risk-free benchmarks, are crucial indicators of credit risk perception in financial markets. Accurately forecasting credit spread volatility is essential for risk management, portfolio optimization, and derivative pricing. However, traditional time series models often struggle with non-stationarities and regime shifts present in financial data, leading to inaccurate volatility forecasts.
 Model Architecture
 
-![alt text](/images/7.Architecture.jpg)
+![alt text](/images/Architecture.jpg)
 
 
 The custom model architecture consists of two main components:
@@ -25,8 +25,8 @@ Implementation
     backpropagation.py: Python code for the backpropagation algorithm used in model training.
     requirements.txt: List of Python dependencies required to run the code.
 
-![alt text](/images/3.MultiCVaR.png)
-![alt text](/images/6.HMM.png)
+![alt text](/images/MultiCVaR.png)
+![alt text](/images/HMM.png)
 
 
 ## Usage
