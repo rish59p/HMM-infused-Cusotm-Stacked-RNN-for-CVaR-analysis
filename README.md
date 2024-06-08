@@ -16,7 +16,7 @@ The custom model architecture consists of two main components:
     Stacked Recurrent Neural Network (RNN): Captures the temporal dependencies and patterns within each regime, allowing for accurate volatility forecasts.
 
 The model is trained using historical credit spread data and regime probabilities estimated by the HMM component. It leverages the power of deep learning to learn complex patterns and provide robust volatility forecasts.
-![alt text]('/images/2. CVaR.png')
+![alt text](/images/2. CVaR.png)
 
 Implementation
 
